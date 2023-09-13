@@ -26,5 +26,3 @@ def eventdetail(request,pk):
         'form' : form
     }
     return render(request,'eventapp/details.html', context)
-
-
