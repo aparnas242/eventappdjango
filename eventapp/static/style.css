@@ -1,0 +1,108 @@
+header{
+    background-color: rgb(43, 142, 203);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+body{
+    background-image: url("https://img.freepik.com/premium-photo/beautiful-abstract-bluesky-water-color-background_364465-1332.jpg");
+    background-repeat: none;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color: rgb(80, 80, 144);
+}
+#logo{
+    width: 100px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    padding: 1%;
+}
+.nav-link{
+    color: azure;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    border-radius: 20%;
+    padding: 10px;
+}
+footer{
+    background-color: rgb(43, 142, 203);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    color: white;
+}
+#events{
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.event-card{
+    
+    text-align: center;
+    box-shadow: 0 10px 12px rgba(51, 31, 122, 1);
+    padding: 30px;
+    border-radius: 10px;
+    width : 250px;
+}
+.details-btn{
+    background-color: rgb(43, 142, 203);
+    text-decoration: none;
+    color: azure;
+    border-radius: 20%;
+    padding: 10px;
+}
+.details-btn:hover{
+    background-color: darkgray;
+    color: cornflowerblue;
+}
+#events1{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.event-card1{
+    text-align: center;
+    box-shadow: 0 10px 12px rgba(51, 31, 122, 1);
+    padding: 0px;
+    border-radius: 10px;
+    width : 309px;
+    height: 425px;
+}
+.apply-btn{
+    background-color: rgb(43, 142, 203);
+    text-decoration: none;
+    color: azure;
+    border-radius: 10%;
+    padding: 5px;
+    position: relative;
+    top: 3px;
+    margin: auto;
+    max-width: 30%;
+    border-width: 0;
+}
+.apply-btn:hover{
+    background-color: darkgray;
+    color: cornflowerblue;
+}
+.form1 label, .form1 input{
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+    justify-content: center;
+    text-align: center;
+}
